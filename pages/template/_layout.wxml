@@ -1,0 +1,22 @@
+<template name="item">
+    <view class="the_top">
+        <image class="top-avatar" src="../../images/home.png" background-size="cover"></image>
+        <view  bindtap="bindViewTap" class="userinfo">
+            <image class="userinfo-avatar" src="{{avatarUrl}}" background-size="cover"></image>
+            <text class="userinfo-nickname">{{nickName}}</text>
+        </view>
+    </view>
+    <view class="container allitem">
+        <view class="title">
+            <text>{{title}}</text>
+        </view>
+        <block wx:for="{{allitemname}}" wx:for-item="item">
+            <view class="item">
+                <label>{{item.title}}</label>
+                <block wx:for="{{item.array}}" wx:for-item="i">
+                    <button bindtap="bind{{i.name}}"> {{i.name}} </button>
+                </block>
+            </view>
+        </block>
+    </view>
+</template>

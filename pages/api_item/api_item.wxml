@@ -1,0 +1,3 @@
+<!--api_item.wxml-->
+<import src="../template/templateitem.wxml"/>
+<template is="item" data="{{...userInfo,title:'Api',allitemname:allitemname}}"/>

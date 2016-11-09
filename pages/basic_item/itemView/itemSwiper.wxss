@@ -1,0 +1,22 @@
+swiper{
+    height: 240px;
+    width:320px;
+    background-color: #ddd;
+}
+swiper-item{
+    text-align: center;
+}
+button{
+    margin-top:10rpx;
+    width:100%;
+}
+slider{
+    margin-top:50rpx;
+    width:80%;
+}
+.wx-swiper-dot::before{
+    color:#9999CC;
+}
+.wx-swiper-dot-active::before{
+    color:cornflowerblue;
+}

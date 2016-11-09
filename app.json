@@ -1,0 +1,44 @@
+{
+  "pages":[
+    
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/basic_item/basic_item",
+    "pages/api_item/api_item",
+    "pages/basic_item/itemView/itemView",
+    "pages/basic_item/itemView/itemScroll-View",
+    "pages/basic_item/itemView/itemSwiper",
+    "pages/basic_item/itemBasic/itemIcon",
+    "pages/basic_item/itemBasic/itemText",
+    "pages/basic_item/itemBasic/itemProgress",
+    "pages/basic_item/itemForm/itemButton"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "lsyGame",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "borderStyle":"white",
+    "selectedColor":"#3973ea",
+    "backgroundColor":"#fff",
+    "color":"#ddd",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath":"images/home.png",
+      "selectedIconPath":"images/home.png"
+    }, {
+      "pagePath": "pages/logs/logs",
+      "text": "日志",
+      "iconPath":"images/drop.png",
+      "selectedIconPath":"images/drop.png"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

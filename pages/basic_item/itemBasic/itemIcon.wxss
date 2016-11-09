@@ -1,0 +1,6 @@
+.group{
+    padding:50rpx 0 30rpx 0;
+}
+.allitem{
+    padding:20rpx 0;
+}

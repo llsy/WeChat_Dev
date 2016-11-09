@@ -1,0 +1,2 @@
+/**basic_item.wxss**/
+@import "../template/templateitem.wxss";

@@ -1,0 +1,6 @@
+.btn-area{
+    width:100%;
+}
+.body-view button{
+    margin-top:30rpx;
+}

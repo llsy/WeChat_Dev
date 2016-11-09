@@ -1,0 +1,34 @@
+.section{
+    width:100%;
+}
+.section__title{
+    font-size:35rpx;
+    font-weight:bold;
+}
+.scroll-view-item{
+    height: 180px;
+}
+.btn-area button{
+    margin-top:10rpx;
+    width:100%;
+}
+.scroll-view_H{
+    white-space: nowrap;
+}
+.scroll-view-item_H{
+    width:300rpx;
+    height: 200rpx;
+    display: inline-block;
+}
+.bc_green{
+    background-color: limegreen;
+}
+.bc_red{
+    background-color: orangered;
+}
+.bc_blue{
+    background-color: dodgerblue;
+}
+.bc_yellow{
+    background-color: yellow;
+}

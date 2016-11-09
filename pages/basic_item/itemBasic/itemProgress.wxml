@@ -1,0 +1,8 @@
+<view class="container allitem">
+    <view class="title"><text>Progress</text></view>
+    <progress percent="20" show-info active/>
+    <progress percent="40" stroke-width="10" active/>
+    <progress percent="60" color="pink" active/>
+    <progress percent="80" active />
+    <progress percent="100" color="#9999CC" active />
+</view>
