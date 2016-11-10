@@ -74,6 +74,21 @@ Page({
       url: '../basic_item/itemForm/itemButton'
     })
   },
+  bindCheckbox: function() {
+    wx.navigateTo({
+      url: '../basic_item/itemForm/itemCheckbox'
+    })
+  },
+  bindForm: function() {
+    wx.navigateTo({
+      url: '../basic_item/itemForm/itemForm'
+    })
+  },
+  bindInput: function() {
+    wx.navigateTo({
+      url: '../basic_item/itemForm/itemInput'
+    })
+  },
   onLoad: function () {
     console.log('onLoad')
     var that = this

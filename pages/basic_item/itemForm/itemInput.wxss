@@ -1,0 +1,14 @@
+.allitem{
+    padding:0;
+}
+input{
+    background-color: #fff;
+    padding:10rpx 20rpx;
+    margin:20rpx 0;
+    border:  2px solid #9999CC;
+    border-radius: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    font-size:15px;
+}

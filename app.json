@@ -11,7 +11,11 @@
     "pages/basic_item/itemBasic/itemIcon",
     "pages/basic_item/itemBasic/itemText",
     "pages/basic_item/itemBasic/itemProgress",
-    "pages/basic_item/itemForm/itemButton"
+    "pages/basic_item/itemForm/itemButton",
+    "pages/basic_item/itemForm/itemCheckbox",
+    "pages/basic_item/itemForm/itemForm",
+    "pages/basic_item/itemForm/itemInput"
+    
   ],
   "window":{
     "backgroundTextStyle":"light",

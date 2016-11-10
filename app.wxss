@@ -7,6 +7,7 @@
   justify-content: space-between;
   padding: 200rpx 0;
   box-sizing: border-box;
+  background-color: rgb(247,247,247);
 } 
 view{
     font-family:-apple-system-font,Helvetica Neue,Helvetica,sans-serif;
@@ -37,4 +38,7 @@ view{
     height: 1px;
     border-bottom: 1px solid #9999CC;
     color: #D9D9D9;
+}
+.section{
+    width:100%;
 }

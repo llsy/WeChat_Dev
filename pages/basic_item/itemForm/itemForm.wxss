@@ -1,0 +1,19 @@
+form{
+    width:100%;
+}
+.section{
+    margin-top:50rpx;
+}
+
+.section__title{
+    font-weight: bold;
+    font-size:35rpx;
+    margin-bottom: 20rpx;
+}
+
+input{
+    border-bottom:1px solid #9999CC;   
+}
+.btn-area{
+    margin-top:50rpx;
+}
