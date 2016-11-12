@@ -89,6 +89,11 @@ Page({
       url: '../basic_item/itemForm/itemInput'
     })
   },
+  bindLabel: function() {
+    wx.navigateTo({
+      url: '../basic_item/itemForm/itemLabel'
+    })
+  },
   onLoad: function () {
     console.log('onLoad')
     var that = this

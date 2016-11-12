@@ -1,6 +1,5 @@
 {
   "pages":[
-    
     "pages/index/index",
     "pages/logs/logs",
     "pages/basic_item/basic_item",
@@ -14,7 +13,8 @@
     "pages/basic_item/itemForm/itemButton",
     "pages/basic_item/itemForm/itemCheckbox",
     "pages/basic_item/itemForm/itemForm",
-    "pages/basic_item/itemForm/itemInput"
+    "pages/basic_item/itemForm/itemInput",
+    "pages/basic_item/itemForm/itemLabel"
     
   ],
   "window":{
